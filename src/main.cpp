@@ -20,12 +20,12 @@ MainProgram program;
 
 void setup(void)
 {
-    program.Init();
+    program.Setup();
 }
 
 void loop(void)
 {
-    program.Tick();
+    program.Loop();
 }
 
 #endif

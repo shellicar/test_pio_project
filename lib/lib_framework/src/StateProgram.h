@@ -5,8 +5,13 @@
 
 class StateProgram : public IStateProgram
 {
-public:
-    void Init();
+  protected:
+    StateProgram() = default;
+
+  public:
+    virtual ~StateProgram() = default;
+    
+    virtual void Init() = 0;
 };
 
 #endif // __STATEMACHINE_STATEPROGRAM_H__

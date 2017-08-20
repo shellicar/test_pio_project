@@ -1,9 +1,9 @@
 #ifndef __STATEMACHINE_ISTATE_H__
 #define __STATEMACHINE_ISTATE_H__
 
-class IStateMachine;
-
 #include "StateIDFwd.h"
+
+class IStateMachine;
 
 class IState
 {
